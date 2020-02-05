@@ -1,0 +1,35 @@
+.Day {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    position: relative;
+    font-size: 20px;
+    /*border: 1px solid black;*/
+    align-items: flex-start;
+}
+
+.Day_activities {
+    display: flex;
+    font-size: 10px;
+    flex-wrap: wrap;
+}
+
+.Day_activity {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 3px 15px;
+    font-size: 11px;
+    display: flex;
+    align-items: self-start;
+    margin-bottom: 1px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Day_activity--title {
+    margin-right: 3px;
+}
+

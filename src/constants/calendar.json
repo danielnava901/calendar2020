@@ -1,0 +1,249 @@
+{
+  "title": "calendario 2020",
+  "months": [
+    {
+      "name": "Enero",
+      "background_color": "#acdb7a",
+      "weeks": [
+        {
+          "week_num": 1,
+          "days": [
+            {
+              "day_num": 29,
+              "background_color": "#acdb7a",
+              "is_other_month": true,
+              "activities": []
+            },
+            {
+              "day_num": 30,
+              "background_color": "#a7db7a",
+              "is_other_month": true,
+              "activities": []
+            },
+            {
+              "day_num": 31,
+              "background_color": "#a3db7a",
+              "is_other_month": true,
+              "activities": []
+            },
+            {
+              "day_num": 1,
+              "background_color": "#9adb7a",
+              "activities": []
+            },
+            {
+              "day_num": 2,
+              "background_color": "#96db7a"
+            },
+            {
+              "day_num": 3,
+              "background_color": "#91db7a"
+            },
+            {
+              "day_num": 4,
+              "background_color": "#8ddb7a"
+            }
+          ]
+        },
+        {
+          "week_num": 2,
+          "days": [
+            {
+              "day_num": 5,
+              "background_color": "#88db7a",
+              "activities": [
+                {
+                  "colaborator": "relaciones",
+                  "title": "Cena"
+                }
+              ]
+            },
+            {
+              "day_num": 6,
+              "background_color": "#7fdb7a"
+            },
+            {
+              "day_num": 7,
+              "background_color": "#7bdb7a"
+            },
+            {
+              "day_num": 8,
+              "background_color": "#7adb7e",
+              "activities": [
+                {
+                  "colaborator": "diaconos",
+                  "title": "Lavar"
+                }
+              ]
+            },
+            {
+              "day_num": 9,
+              "background_color": "#7adb82"
+            },
+            {
+              "day_num": 10,
+              "background_color": "#7adb87"
+            },
+            {
+              "day_num": 11,
+              "background_color": "#7adb90"
+            }
+          ]
+        },
+        {
+          "week_num": 3,
+          "days": [
+            {
+              "day_num": 12,
+              "background_color": "#7adb9d",
+              "activities": [
+                {
+                  "colaborator": "relaciones",
+                  "title": "Cena"
+                }
+              ]
+            },
+            {
+              "day_num": 13,
+              "background_color": "#7adba6"
+            },
+            {
+              "day_num": 14,
+              "background_color": "#7adbaf"
+            },
+            {
+              "day_num": 15,
+              "background_color": "#7adbb3",
+              "activities": [
+                {
+                  "colaborator": "diaconos",
+                  "title": "Lavar"
+                }
+              ]
+            },
+            {
+              "day_num": 16,
+              "background_color": "#7adbb8"
+            },
+            {
+              "day_num": 17,
+              "background_color": "#7adbc1"
+            },
+            {
+              "day_num": 18,
+              "background_color": "#7adbce",
+              "activities": [
+                {
+                  "colaborator": "evangelismo",
+                  "title": "Fortaleciendo a tu iglesia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 4,
+          "days": [
+            {
+              "day_num": 19,
+              "background_color": "#7adbd3",
+              "activities": [
+                {
+                  "colaborator": "relaciones",
+                  "title": "Cena"
+                }
+              ]
+            },
+            {
+              "day_num": 20,
+              "background_color": "#7adbd7"
+            },
+            {
+              "day_num": 21,
+              "background_color": "#7adadb"
+            },
+            {
+              "day_num": 22,
+              "background_color": "#7ad6db",
+              "activities": [
+                {
+                  "colaborator": "diaconos",
+                  "title": "Lavar"
+                }
+              ]
+            },
+            {
+              "day_num": 23,
+              "background_color": "#7ad1db"
+            },
+            {
+              "day_num": 24,
+              "background_color": "#7acddb"
+            },
+            {
+              "day_num": 25,
+              "background_color": "#7ac8db"
+            }
+          ]
+        },
+        {
+          "week_num": 5,
+          "days": [
+            {
+              "day_num": 26,
+              "background_color": "#7ac4db",
+              "activities": [
+                {
+                  "colaborator": "femenil",
+                  "title": "Culto unido"
+                }
+              ]
+            },
+            {
+              "day_num": 27,
+              "background_color": "#7abfdb"
+            },
+            {
+              "day_num": 28,
+              "background_color": "#7ab6db"
+            },
+            {
+              "day_num": 29,
+              "background_color": "#7ab6db",
+              "activities": [
+                {
+                  "colaborator": "diaconos",
+                  "title": "Lavar"
+                }
+              ]
+            },
+            {
+              "day_num": 30,
+              "background_color": "#7ab6db"
+            },
+            {
+              "day_num": 31,
+              "background_color": "#7ab6db"
+            },
+            {
+              "day_num": 1,
+              "background_color": "#7ab6db",
+              "is_other_month": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Febrero",
+      "background_color": "#db7f7a",
+      "weeks": [{
+        "week_num": 6,
+        "days": [{
+          "day_num": 2,
+          "background_color": "#db7f7a"
+        }]
+      }]
+    }
+  ]
+}
