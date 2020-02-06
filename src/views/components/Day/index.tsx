@@ -19,17 +19,47 @@ const Day: React.FC<DayPropsInterface> = (props) => {
     const returnEmoji = (type: string) => {
         let emoji: any = null;
         switch (type) {
+            case "consistorio":
+                emoji = <i className="em em-toolbox" title="Diáconos"/>;
+                break;
             case "diaconos":
-                emoji = <i className="em em-toolbox" aria-label="BIRD" title="Diáconos"/>;
+                emoji = <i className="em em-toolbox" title="Diáconos"/>;
                 break;
-            case "birth":
-                emoji = <i className="em em-cake" aria-label="CAKE" title="Cumpleaños"/>;
-                break;
-            case "evangelismo":
-                emoji = <i className="em em-book" aria-label="BOOK" title="Evangelismo"/>;
+            case "cumple":
+                emoji = <i className="em em-cake" title="Cumpleaños"/>;
                 break;
             case "femenil":
                 emoji = <i className="em em-female_curly_haired" title="Femenil"/>;
+                break;
+            case "varones":
+                emoji = <i className="em em-female_curly_haired" title="Varones"/>;
+                break;
+            case "jovenes":
+                emoji = <i className="em em-female_curly_haired" title="Jóvenes"/>;
+                break;
+            case "ninos":
+                emoji = <i className="em em-female_curly_haired" title="Niños"/>;
+                break;
+            case "evangelismo":
+                emoji = <i className="em em-book" title="Evangelismo"/>;
+                break;
+            case "recursos":
+                emoji = <i className="em em-book" title="Recursos"/>;
+                break;
+            case "relaciones":
+                emoji = <i className="em em-book" title="Relaciones"/>;
+                break;
+            case "comunicaciones":
+                emoji = <i className="em em-book" title="Comunicaciones"/>;
+                break;
+            case "educacion":
+                emoji = <i className="em em-book" title="Educación"/>;
+                break;
+            case "alabanza":
+                emoji = <i className="em em-book" title="Alabanza"/>;
+                break;
+            case "comision":
+                emoji = <i className="em em-book" title="Comisión navideña"/>;
                 break;
             default:
                 emoji = null

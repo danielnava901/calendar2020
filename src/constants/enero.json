@@ -1,0 +1,198 @@
+{
+  "name": "Enero",
+  "background_color": "#fff",
+  "weeks": [
+    {
+      "week_num": 1,
+      "days": [
+        {
+          "day_num": 29,
+          "is_other_month": true,
+          "activities": []
+        },
+        {
+          "day_num": 30,
+          "is_other_month": true,
+          "activities": []
+        },
+        {
+          "day_num": 31,
+          "is_other_month": true,
+          "activities": []
+        },
+        {
+          "day_num": 1,
+          "activities": []
+        },
+        {
+          "day_num": 2
+        },
+        {
+          "day_num": 3
+        },
+        {
+          "day_num": 4
+        }
+      ]
+    },
+    {
+      "week_num": 2,
+      "days": [
+        {
+          "day_num": 5,
+          "activities": [
+            {
+              "colaborator": "relaciones",
+              "title": "Cena"
+            }
+          ]
+        },
+        {
+          "day_num": 6
+        },
+        {
+          "day_num": 7
+        },
+        {
+          "day_num": 8,
+          "activities": [
+            {
+              "colaborator": "diaconos",
+              "title": "Lavar"
+            }
+          ]
+        },
+        {
+          "day_num": 9
+        },
+        {
+          "day_num": 10
+        },
+        {
+          "day_num": 11
+        }
+      ]
+    },
+    {
+      "week_num": 3,
+      "days": [
+        {
+          "day_num": 12,
+          "activities": [
+            {
+              "colaborator": "relaciones",
+              "title": "Cena"
+            }
+          ]
+        },
+        {
+          "day_num": 13
+        },
+        {
+          "day_num": 14
+        },
+        {
+          "day_num": 15,
+          "activities": [
+            {
+              "colaborator": "diaconos",
+              "title": "Lavar"
+            }
+          ]
+        },
+        {
+          "day_num": 16
+        },
+        {
+          "day_num": 17
+        },
+        {
+          "day_num": 18,
+          "activities": [
+            {
+              "colaborator": "evangelismo",
+              "title": "Fortaleciendo a tu iglesia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week_num": 4,
+      "days": [
+        {
+          "day_num": 19,
+          "activities": [
+            {
+              "colaborator": "relaciones",
+              "title": "Cena"
+            }
+          ]
+        },
+        {
+          "day_num": 20
+        },
+        {
+          "day_num": 21
+        },
+        {
+          "day_num": 22,
+          "activities": [
+            {
+              "colaborator": "diaconos",
+              "title": "Lavar"
+            }
+          ]
+        },
+        {
+          "day_num": 23
+        },
+        {
+          "day_num": 24
+        },
+        {
+          "day_num": 25
+        }
+      ]
+    },
+    {
+      "week_num": 5,
+      "days": [
+        {
+          "day_num": 26,
+          "activities": [
+            {
+              "colaborator": "femenil",
+              "title": "Culto unido"
+            }
+          ]
+        },
+        {
+          "day_num": 27
+        },
+        {
+          "day_num": 28
+        },
+        {
+          "day_num": 29,
+          "activities": [
+            {
+              "colaborator": "diaconos",
+              "title": "Lavar"
+            }
+          ]
+        },
+        {
+          "day_num": 30
+        },
+        {
+          "day_num": 31
+        },
+        {
+          "day_num": 1,
+          "is_other_month": true
+        }
+      ]
+    }
+  ]
+}

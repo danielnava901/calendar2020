@@ -3,45 +3,38 @@
   "months": [
     {
       "name": "Enero",
-      "background_color": "#acdb7a",
+      "background_color": "#fff",
       "weeks": [
         {
           "week_num": 1,
           "days": [
             {
               "day_num": 29,
-              "background_color": "#acdb7a",
               "is_other_month": true,
               "activities": []
             },
             {
               "day_num": 30,
-              "background_color": "#a7db7a",
               "is_other_month": true,
               "activities": []
             },
             {
               "day_num": 31,
-              "background_color": "#a3db7a",
               "is_other_month": true,
               "activities": []
             },
             {
               "day_num": 1,
-              "background_color": "#9adb7a",
               "activities": []
             },
             {
-              "day_num": 2,
-              "background_color": "#96db7a"
+              "day_num": 2
             },
             {
-              "day_num": 3,
-              "background_color": "#91db7a"
+              "day_num": 3
             },
             {
-              "day_num": 4,
-              "background_color": "#8ddb7a"
+              "day_num": 4
             }
           ]
         },
@@ -50,7 +43,6 @@
           "days": [
             {
               "day_num": 5,
-              "background_color": "#88db7a",
               "activities": [
                 {
                   "colaborator": "relaciones",
@@ -59,16 +51,13 @@
               ]
             },
             {
-              "day_num": 6,
-              "background_color": "#7fdb7a"
+              "day_num": 6
             },
             {
-              "day_num": 7,
-              "background_color": "#7bdb7a"
+              "day_num": 7
             },
             {
               "day_num": 8,
-              "background_color": "#7adb7e",
               "activities": [
                 {
                   "colaborator": "diaconos",
@@ -77,16 +66,13 @@
               ]
             },
             {
-              "day_num": 9,
-              "background_color": "#7adb82"
+              "day_num": 9
             },
             {
-              "day_num": 10,
-              "background_color": "#7adb87"
+              "day_num": 10
             },
             {
-              "day_num": 11,
-              "background_color": "#7adb90"
+              "day_num": 11
             }
           ]
         },
@@ -95,7 +81,6 @@
           "days": [
             {
               "day_num": 12,
-              "background_color": "#7adb9d",
               "activities": [
                 {
                   "colaborator": "relaciones",
@@ -104,16 +89,13 @@
               ]
             },
             {
-              "day_num": 13,
-              "background_color": "#7adba6"
+              "day_num": 13
             },
             {
-              "day_num": 14,
-              "background_color": "#7adbaf"
+              "day_num": 14
             },
             {
               "day_num": 15,
-              "background_color": "#7adbb3",
               "activities": [
                 {
                   "colaborator": "diaconos",
@@ -122,16 +104,13 @@
               ]
             },
             {
-              "day_num": 16,
-              "background_color": "#7adbb8"
+              "day_num": 16
             },
             {
-              "day_num": 17,
-              "background_color": "#7adbc1"
+              "day_num": 17
             },
             {
               "day_num": 18,
-              "background_color": "#7adbce",
               "activities": [
                 {
                   "colaborator": "evangelismo",
@@ -146,7 +125,6 @@
           "days": [
             {
               "day_num": 19,
-              "background_color": "#7adbd3",
               "activities": [
                 {
                   "colaborator": "relaciones",
@@ -155,16 +133,13 @@
               ]
             },
             {
-              "day_num": 20,
-              "background_color": "#7adbd7"
+              "day_num": 20
             },
             {
-              "day_num": 21,
-              "background_color": "#7adadb"
+              "day_num": 21
             },
             {
               "day_num": 22,
-              "background_color": "#7ad6db",
               "activities": [
                 {
                   "colaborator": "diaconos",
@@ -173,16 +148,13 @@
               ]
             },
             {
-              "day_num": 23,
-              "background_color": "#7ad1db"
+              "day_num": 23
             },
             {
-              "day_num": 24,
-              "background_color": "#7acddb"
+              "day_num": 24
             },
             {
-              "day_num": 25,
-              "background_color": "#7ac8db"
+              "day_num": 25
             }
           ]
         },
@@ -191,7 +163,6 @@
           "days": [
             {
               "day_num": 26,
-              "background_color": "#7ac4db",
               "activities": [
                 {
                   "colaborator": "femenil",
@@ -200,16 +171,13 @@
               ]
             },
             {
-              "day_num": 27,
-              "background_color": "#7abfdb"
+              "day_num": 27
             },
             {
-              "day_num": 28,
-              "background_color": "#7ab6db"
+              "day_num": 28
             },
             {
               "day_num": 29,
-              "background_color": "#7ab6db",
               "activities": [
                 {
                   "colaborator": "diaconos",
@@ -218,16 +186,13 @@
               ]
             },
             {
-              "day_num": 30,
-              "background_color": "#7ab6db"
+              "day_num": 30
             },
             {
-              "day_num": 31,
-              "background_color": "#7ab6db"
+              "day_num": 31
             },
             {
               "day_num": 1,
-              "background_color": "#7ab6db",
               "is_other_month": true
             }
           ]
@@ -236,14 +201,514 @@
     },
     {
       "name": "Febrero",
-      "background_color": "#db7f7a",
+      "background_color": "#fff",
       "weeks": [{
         "week_num": 6,
-        "days": [{
-          "day_num": 2,
-          "background_color": "#db7f7a"
-        }]
-      }]
+        "days": [
+          {
+            "day_num": 26,
+            "is_other_month": true
+          },
+          {
+            "day_num": 27,
+            "is_other_month": true
+          },
+          {
+            "day_num": 28,
+            "is_other_month": true
+          },
+          {
+            "day_num": 29,
+            "is_other_month": true
+          },
+          {
+            "day_num": 20,
+            "is_other_month": true
+          },
+          {
+            "day_num": 21,
+            "is_other_month": true
+          },
+          {
+            "day_num": 1,
+            "is_other_month": false
+          }
+        ]
+      },
+        {
+          "week_num": 7,
+          "days": [
+            {
+              "day_num": 2,
+              "is_other_month": false
+            },
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            },
+            {
+              "day_num": 5,
+              "is_other_month": false
+            },
+            {
+              "day_num": 6,
+              "is_other_month": false
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false
+            },
+            {
+              "day_num": 8,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 8,
+          "days": [
+            {
+              "day_num": 9,
+              "is_other_month": false
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false
+            },
+            {
+              "day_num": 12,
+              "is_other_month": false
+            },
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            },
+            {
+              "day_num": 15,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 9,
+          "days": [
+            {
+              "day_num": 16,
+              "is_other_month": false
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false
+            },
+            {
+              "day_num": 19,
+              "is_other_month": false
+            },
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            },
+            {
+              "day_num": 22,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 10,
+          "days": [
+            {
+              "day_num": 23,
+              "is_other_month": false
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false
+            },
+            {
+              "day_num": 26,
+              "is_other_month": false
+            },
+            {
+              "day_num": 27,
+              "is_other_month": false
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false
+            },
+            {
+              "day_num": 29,
+              "is_other_month": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marzo",
+      "background_color": "#fff",
+      "weeks": [
+        {
+        "week_num": 11,
+        "days": [
+          {
+            "day_num": 1,
+            "is_other_month": false
+          },
+          {
+            "day_num": 2,
+            "is_other_month": false
+          },
+          {
+            "day_num": 3,
+            "is_other_month": false
+          },
+          {
+            "day_num": 4,
+            "is_other_month": false
+          },
+          {
+            "day_num": 5,
+            "is_other_month": false
+          },
+          {
+            "day_num": 6,
+            "is_other_month": false
+          },
+          {
+            "day_num": 7,
+            "is_other_month": false
+          }
+        ]
+      },
+        {
+          "week_num": 12,
+          "days": [
+            {
+              "day_num": 8,
+              "is_other_month": false
+            },
+            {
+              "day_num": 9,
+              "is_other_month": false
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false
+            },
+            {
+              "day_num": 12,
+              "is_other_month": false
+            },
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 13,
+          "days": [
+            {
+              "day_num": 15,
+              "is_other_month": false
+            },
+            {
+              "day_num": 16,
+              "is_other_month": false
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false
+            },
+            {
+              "day_num": 19,
+              "is_other_month": false
+            },
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 13,
+          "days": [
+            {
+              "day_num": 22,
+              "is_other_month": false
+            },
+            {
+              "day_num": 23,
+              "is_other_month": false
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false
+            },
+            {
+              "day_num": 26,
+              "is_other_month": false
+            },
+            {
+              "day_num": 27,
+              "is_other_month": false
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 14,
+          "days": [
+            {
+              "day_num": 29,
+              "is_other_month": false
+            },
+            {
+              "day_num": 30,
+              "is_other_month": false
+            },
+            {
+              "day_num": 31,
+              "is_other_month": false
+            },
+            {
+              "day_num": 1,
+              "is_other_month": true
+            },
+            {
+              "day_num": 2,
+              "is_other_month": true
+            },
+            {
+              "day_num": 3,
+              "is_other_month": true
+            },
+            {
+              "day_num": 4,
+              "is_other_month": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abril",
+      "background_color": "#fff",
+      "weeks": [{
+        "week_num": 15,
+        "days": [
+          {
+            "day_num": 29,
+            "is_other_month": true
+          },
+          {
+            "day_num": 30,
+            "is_other_month": true
+          },
+          {
+            "day_num": 31,
+            "is_other_month": true
+          },
+          {
+            "day_num": 1,
+            "is_other_month": false
+          },
+          {
+            "day_num": 2,
+            "is_other_month": false
+          },
+          {
+            "day_num": 3,
+            "is_other_month": false
+          },
+          {
+            "day_num": 4,
+            "is_other_month": false
+          }
+        ]
+      },
+        {
+          "week_num": 16,
+          "days": [
+            {
+              "day_num": 8,
+              "is_other_month": false
+            },
+            {
+              "day_num": 9,
+              "is_other_month": false
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false
+            },
+            {
+              "day_num": 12,
+              "is_other_month": false
+            },
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 13,
+          "days": [
+            {
+              "day_num": 15,
+              "is_other_month": false
+            },
+            {
+              "day_num": 16,
+              "is_other_month": false
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false
+            },
+            {
+              "day_num": 19,
+              "is_other_month": false
+            },
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 13,
+          "days": [
+            {
+              "day_num": 22,
+              "is_other_month": false
+            },
+            {
+              "day_num": 23,
+              "is_other_month": false
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false
+            },
+            {
+              "day_num": 26,
+              "is_other_month": false
+            },
+            {
+              "day_num": 27,
+              "is_other_month": false
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 14,
+          "days": [
+            {
+              "day_num": 29,
+              "is_other_month": false
+            },
+            {
+              "day_num": 30,
+              "is_other_month": false
+            },
+            {
+              "day_num": 31,
+              "is_other_month": false
+            },
+            {
+              "day_num": 1,
+              "is_other_month": true
+            },
+            {
+              "day_num": 2,
+              "is_other_month": true
+            },
+            {
+              "day_num": 3,
+              "is_other_month": true
+            },
+            {
+              "day_num": 4,
+              "is_other_month": true
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 .Month {
-    border: 1px solid gold;
+    /*border: 1px solid gold;*/
     display: flex;
     flex-direction: column;
     padding: 40px 30px;
