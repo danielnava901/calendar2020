@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 
+import {returnEmoji} from "../../../utilities/front";
+
 interface DayPropsInterface {
     num: number,
     data: any,
@@ -17,65 +19,7 @@ const Day: React.FC<DayPropsInterface> = (props) => {
         backgroundColor: props.background_color ? props.background_color : ''
     };
 
-    const returnEmoji = (type: string) => {
-        let emoji: any = null;
 
-
-        switch (type) {
-            case "cena":
-                emoji = <i className="em em-bread" title="Santa cena"/>;
-                break;
-            case "consistorio":
-                emoji = <i className="em em-briefcase" title="Consistorio"/>;
-                break;
-            case "diaconos":
-                emoji = <i className="em em-toolbox" title="Diáconos"/>;
-                break;
-            case "cumple":
-                emoji = <i className="em em-cake" title="Cumpleaños"/>;
-                break;
-            case "femenil":
-                emoji = <i className="em em-female_curly_haired" title="Femenil"/>;
-                break;
-            case "varones":
-                emoji = <i className="em em-man_in_tuxedo" title="Varones"/>;
-                break;
-            case "jovenes":
-                emoji = <i className="em em-man-biking" title="Jóvenes"/>;
-                break;
-            case "ninos":
-                emoji = <i className="em em-balloon" title="Niños"/>;
-                break;
-            case "evangelismo":
-                emoji = <i className="em em-bookmark" title="Evangelismo"/>;
-                break;
-            case "recursos":
-                emoji = <i className="em em-moneybag" title="Recursos"/>;
-                break;
-            case "relaciones":
-                emoji = <i className="em em-handshake" title="Relaciones"/>;
-                break;
-            case "comunicaciones":
-                emoji = <i className="em em-incoming_envelope" title="Comunicaciones"/>;
-                break;
-            case "educacion":
-                emoji = <i className="em em-female-teacher" title="Educación"/>;
-                break;
-            case "alabanza":
-                emoji = <i className="em em-musical_keyboard" title="Alabanza"/>;
-                break;
-            case "comision":
-                emoji = <i className="em em-christmas_tree" title="Comisión navideña"/>;
-                break;
-            case "iglesia":
-                emoji = <i className="em em-church" title="Comisión navideña"/>;
-                break;
-            default:
-                emoji = null
-        }
-
-        return emoji;
-    };
 
     const onClick = () => {
         props.onClick();
