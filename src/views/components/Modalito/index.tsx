@@ -8,9 +8,6 @@ interface ModalitoPropsInterface {
 }
 
 const Modalito: React.FC<ModalitoPropsInterface> = (props: ModalitoPropsInterface) => {
-
-    console.log(props.currentDay);
-
     return <div className="Modalito">
     <div className="Modalito_container">
         <div className="Modalito_close" onClick={props.onClose}>&times;</div>

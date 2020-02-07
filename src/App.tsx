@@ -14,6 +14,8 @@ class App extends Component<any, any> {
     this.state = {
       counter: 0,
       show_modal: false,
+      current_day_date: 1,
+      current_month_date: 0,
       current_day: {}
     };
 
@@ -22,7 +24,19 @@ class App extends Component<any, any> {
     this.onClickCloseModal = this.onClickCloseModal.bind(this);
   }
 
-  clickArrow(step: number) {
+  componentDidMount(): void {
+    let date = new Date();
+    let month = date.getMonth();
+    let day = date.getDate();
+
+    this.setState({
+      counter: month,
+      current_day_date: day,
+      current_month_date: month
+    })
+  }
+
+  clickArrow(step: number): void {
     if((this.state.counter === 11 && step > 0) || (this.state.counter === 0 && step < 0)) {
       return;
     }
@@ -31,8 +45,7 @@ class App extends Component<any, any> {
     })
   }
 
-  onClickDay (day: any, week: any, month: any, name: string) {
-    console.log(day);
+  onClickDay (day: any, week: any, month: any, name: string): void {
     if(day.activities && day.activities.length > 0 ){
       this.setState({
         show_modal: true,
@@ -47,7 +60,7 @@ class App extends Component<any, any> {
 
   }
 
-  onClickCloseModal() {
+  onClickCloseModal(): void {
     this.setState({
       show_modal: false
     });
@@ -81,6 +94,8 @@ class App extends Component<any, any> {
                 week.days.map((day: any, indexDay: number) => {
                   return <Day
                     data={day}
+                    isToday={Number(day.day_num) === Number(this.state.current_day_date) &&
+                            this.state.counter === this.state.current_month_date}
                     num={day.day_num}
                     activities={day.activities}
                     background_color={day.background_color}

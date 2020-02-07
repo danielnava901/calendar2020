@@ -10,7 +10,8 @@ interface DayPropsInterface {
     background_color?: string,
     day_name?: string,
     is_other_month?: boolean,
-    onClick: () => void
+    onClick: () => void,
+    isToday: boolean
 }
 
 const Day: React.FC<DayPropsInterface> = (props) => {
@@ -19,18 +20,16 @@ const Day: React.FC<DayPropsInterface> = (props) => {
         backgroundColor: props.background_color ? props.background_color : ''
     };
 
-
-
     const onClick = () => {
         props.onClick();
     };
 
     return <div key={props.num}
-                className={`Day ${props.is_other_month ? 'other-day': ''}`}
+                className={`Day ${props.is_other_month ? 'other-day': ''} `}
                 style={styles}
                 onClick={onClick}
     >
-        <div className="Day_number">
+        <div className={`Day_number ${props.isToday ? 'today': ''}`}>
             <span className={`Day_number_n`}>{props.num}</span>
             <span className="Day_number_name">{props.day_name}</span>
         </div>
