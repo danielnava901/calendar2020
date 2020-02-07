@@ -568,7 +568,7 @@
                 },
                 {
                   "title": "Domingo familiar",
-                  "colaborators": ["consistorio"],
+                  "colaborators": ["iglesia"],
                   "start_at": "15:00"
                 }
               ]
@@ -698,7 +698,7 @@
                   "start_at": "07:00"
                 },{
                   "title": "Domingo familiar",
-                  "colaborators": [""],
+                  "colaborators": ["iglesia"],
                   "start_at": "17:00"
                 }
               ]
@@ -1051,7 +1051,7 @@
                 },
                 {
                   "title": "Aniv. Emanuel",
-                  "colaborators": ["consitorio"],
+                  "colaborators": ["consistorio"],
                   "start_at": "09:00"
                 }
               ]
@@ -1523,14 +1523,7 @@
             },
             {
               "day_num": 1,
-              "is_other_month": true,
-              "activities": [
-                {
-                  "title": "Fin de la juventud",
-                  "colaborators": ["jovenes"],
-                  "start_at": ""
-                }
-              ]
+              "is_other_month": true
             }
           ]
         }
@@ -1569,7 +1562,14 @@
             },
             {
               "day_num": 1,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Fin de la juventud",
+                  "colaborators": ["jovenes"],
+                  "start_at": ""
+                }
+              ]
             }
           ]
         },

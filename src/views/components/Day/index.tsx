@@ -10,11 +10,10 @@ interface DayPropsInterface {
 }
 
 const Day: React.FC<DayPropsInterface> = (props) => {
-    console.log("isother ",props.is_other_month);
+
     const styles = {
         backgroundColor: props.background_color ? props.background_color : 'transparent'
     };
-
 
     const returnEmoji = (type: string) => {
         let emoji: any = null;
@@ -58,7 +57,7 @@ const Day: React.FC<DayPropsInterface> = (props) => {
                 emoji = <i className="em em-incoming_envelope" title="Comunicaciones"/>;
                 break;
             case "educacion":
-                emoji = <i className="em em-female_teacher" title="Educación"/>;
+                emoji = <i className="em em-female-teacher" title="Educación"/>;
                 break;
             case "alabanza":
                 emoji = <i className="em em-musical_keyboard" title="Alabanza"/>;
@@ -76,7 +75,6 @@ const Day: React.FC<DayPropsInterface> = (props) => {
         return emoji;
     };
 
-
     return <div className={`Day ${props.is_other_month ? 'other-day': ''}`} style={styles} key={props.num}>
             <div className="Day_number">
                 <span className={`Day_number_n`}>{props.num}</span>
@@ -89,9 +87,9 @@ const Day: React.FC<DayPropsInterface> = (props) => {
                         return <div className="Day_activity" key={index}>
                             <span className="Day_activity--title">{activity.title}</span>
                                 {
-                                    activity.colaborators?.map((col: string) => {
+                                    activity.colaborators?.map((col: string, indexCol:number) => {
 
-                                        return <span className={`Day_activity--emoji ${col}`}>
+                                        return <span className={`Day_activity--emoji ${col}`} key={indexCol}>
                                             {
                                                 returnEmoji(col)
                                             }

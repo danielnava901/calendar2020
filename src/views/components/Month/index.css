@@ -10,14 +10,26 @@
 .Month_name {
     color: white;
     font-size: 28px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Month_name_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Month_name_year {
+    font-size: 13px;
 }
 
 .Month_arrows {
-    display: flex;
-    justify-content: space-between;
     color: white;
     font-size: 3rem;
-    margin: 10px 0;
+    padding: 0 30px;
 }
 
 .arrow {
@@ -25,4 +37,11 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+
+@media (max-width: 1100px) {
+    .Month {
+        height: 100vh;
+    }
 }
