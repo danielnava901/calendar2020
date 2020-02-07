@@ -2,7 +2,27 @@
     /*border: 1px solid gold;*/
     display: flex;
     flex-direction: column;
-    padding: 40px 30px;
+    padding: 10px 30px;
     text-align: center;
     text-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Month_name {
+    color: white;
+    font-size: 28px;
+}
+
+.Month_arrows {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }

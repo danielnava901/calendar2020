@@ -9,7 +9,19 @@
     font-size: 20px;
     /*border: 1px solid black;*/
     align-items: flex-start;
+    border-left: 1px solid rgba(222, 222, 222, 1);
+    border-top: 1px solid rgba(222, 222, 222, 1);
+    color: white;
 }
+
+.Week > .Day:last-of-type {
+    border-right: 1px solid rgba(222, 222, 222, 1);
+}
+
+.Month .Week:last-of-type > .Day{
+    border-bottom: 1px solid rgba(222, 222, 222, 1);
+}
+
 
 .Day_activities {
     display: flex;
@@ -30,6 +42,19 @@
 }
 
 .Day_activity--title {
-    margin-right: 3px;
+    margin-right: 10px;
+    text-align: left;
 }
 
+.Day_activity--emoji {
+    margin-right: 5px;
+}
+
+.Day_number_n {
+    font-weight: bold;
+}
+
+.other-day {
+    color: rgba(255,255, 255, 0.4);
+    background-color: rgba(255,255, 255, 0.2) !important;
+}

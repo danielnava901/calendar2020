@@ -3,7 +3,7 @@
   "months": [
     {
       "name": "Enero",
-      "background_color": "#fff",
+      "background_color": "rgb(45,128,185)",
       "weeks": [
         {
           "week_num": 1,
@@ -43,12 +43,7 @@
           "days": [
             {
               "day_num": 5,
-              "activities": [
-                {
-                  "colaborator": "relaciones",
-                  "title": "Cena"
-                }
-              ]
+              "activities": []
             },
             {
               "day_num": 6
@@ -58,12 +53,7 @@
             },
             {
               "day_num": 8,
-              "activities": [
-                {
-                  "colaborator": "diaconos",
-                  "title": "Lavar"
-                }
-              ]
+              "activities": []
             },
             {
               "day_num": 9
@@ -81,12 +71,7 @@
           "days": [
             {
               "day_num": 12,
-              "activities": [
-                {
-                  "colaborator": "relaciones",
-                  "title": "Cena"
-                }
-              ]
+              "activities": []
             },
             {
               "day_num": 13
@@ -96,12 +81,7 @@
             },
             {
               "day_num": 15,
-              "activities": [
-                {
-                  "colaborator": "diaconos",
-                  "title": "Lavar"
-                }
-              ]
+              "activities": []
             },
             {
               "day_num": 16
@@ -113,7 +93,7 @@
               "day_num": 18,
               "activities": [
                 {
-                  "colaborator": "evangelismo",
+                  "colaborators": ["evangelismo"],
                   "title": "Fortaleciendo a tu iglesia"
                 }
               ]
@@ -125,12 +105,7 @@
           "days": [
             {
               "day_num": 19,
-              "activities": [
-                {
-                  "colaborator": "relaciones",
-                  "title": "Cena"
-                }
-              ]
+              "activities": []
             },
             {
               "day_num": 20
@@ -140,12 +115,7 @@
             },
             {
               "day_num": 22,
-              "activities": [
-                {
-                  "colaborator": "diaconos",
-                  "title": "Lavar"
-                }
-              ]
+              "activities": []
             },
             {
               "day_num": 23
@@ -165,7 +135,7 @@
               "day_num": 26,
               "activities": [
                 {
-                  "colaborator": "femenil",
+                  "colaborators": ["femenil"],
                   "title": "Culto unido"
                 }
               ]
@@ -178,12 +148,7 @@
             },
             {
               "day_num": 29,
-              "activities": [
-                {
-                  "colaborator": "diaconos",
-                  "title": "Lavar"
-                }
-              ]
+              "activities": []
             },
             {
               "day_num": 30
@@ -201,10 +166,11 @@
     },
     {
       "name": "Febrero",
-      "background_color": "#fff",
-      "weeks": [{
-        "week_num": 6,
-        "days": [
+      "background_color": "rgb(139,185,51)",
+      "weeks": [
+        {
+          "week_num": 5,
+          "days": [
           {
             "day_num": 26,
             "is_other_month": true
@@ -231,20 +197,38 @@
           },
           {
             "day_num": 1,
-            "is_other_month": false
+            "is_other_month": false,
+            "activities": [
+              {
+                "title": "Capacitación",
+                "colaborators": ["evangelismo"]
+              }
+            ]
           }
         ]
-      },
+        },
         {
-          "week_num": 7,
+          "week_num": 6,
           "days": [
             {
               "day_num": 2,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Santa cena",
+                  "colaborators": ["cena"]
+                }
+              ]
             },
             {
               "day_num": 3,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Santa cena",
+                  "colaborators": ["cena"]
+                }
+              ]
             },
             {
               "day_num": 4,
@@ -264,12 +248,18 @@
             },
             {
               "day_num": 8,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Aseo de la bodega",
+                  "colaborators": ["diaconos"]
+                }
+              ]
             }
           ]
         },
         {
-          "week_num": 8,
+          "week_num": 7,
           "days": [
             {
               "day_num": 9,
@@ -297,12 +287,18 @@
             },
             {
               "day_num": 15,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Cena de matrimonios",
+                  "colaborators": ["relaciones"]
+                }
+              ]
             }
           ]
         },
         {
-          "week_num": 9,
+          "week_num": 8,
           "days": [
             {
               "day_num": 16,
@@ -326,20 +322,38 @@
             },
             {
               "day_num": 21,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Vigilia de oración",
+                  "colaborators": ["recursos"]
+                }
+              ]
             },
             {
               "day_num": 22,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Actividad presbiterio",
+                  "colaborators": ["consistorio"]
+                }
+              ]
             }
           ]
         },
         {
-          "week_num": 10,
+          "week_num": 9,
           "days": [
             {
               "day_num": 23,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Torneo bíblico",
+                  "colaborators": ["jovenes"]
+                }
+              ]
             },
             {
               "day_num": 24,
@@ -363,7 +377,14 @@
             },
             {
               "day_num": 29,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Hacienda y contaduría",
+                  "colaborators": ["recursos"],
+                  "start_at": ""
+                }
+              ]
             }
           ]
         }
@@ -371,10 +392,10 @@
     },
     {
       "name": "Marzo",
-      "background_color": "#fff",
+      "background_color": "#9c27b0",
       "weeks": [
         {
-        "week_num": 11,
+        "week_num": 10,
         "days": [
           {
             "day_num": 1,
@@ -407,7 +428,7 @@
         ]
       },
         {
-          "week_num": 12,
+          "week_num": 11,
           "days": [
             {
               "day_num": 8,
@@ -435,12 +456,19 @@
             },
             {
               "day_num": 14,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Capacitación",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "9:00"
+                }
+              ]
             }
           ]
         },
         {
-          "week_num": 13,
+          "week_num": 12,
           "days": [
             {
               "day_num": 15,
@@ -448,7 +476,14 @@
             },
             {
               "day_num": 16,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Salida",
+                  "colaborators": ["relaciones"],
+                  "start_at": ""
+                }
+              ]
             },
             {
               "day_num": 17,
@@ -477,7 +512,14 @@
           "days": [
             {
               "day_num": 22,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Presentación EBV",
+                  "colaborators": ["educacion"],
+                  "start_at": "17:00"
+                }
+              ]
             },
             {
               "day_num": 23,
@@ -501,7 +543,14 @@
             },
             {
               "day_num": 28,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Pintar la iglesia",
+                  "colaborators": ["diaconos"],
+                  "start_at": "09:00"
+                }
+              ]
             }
           ]
         },
@@ -510,7 +559,19 @@
           "days": [
             {
               "day_num": 29,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Matutino",
+                  "colaborators": ["consistorio"],
+                  "start_at": "07:00"
+                },
+                {
+                  "title": "Domingo familiar",
+                  "colaborators": ["consistorio"],
+                  "start_at": "15:00"
+                }
+              ]
             },
             {
               "day_num": 30,
@@ -542,9 +603,10 @@
     },
     {
       "name": "Abril",
-      "background_color": "#fff",
-      "weeks": [{
-        "week_num": 15,
+      "background_color": "#3f51b5",
+      "weeks": [
+        {
+        "week_num": 14,
         "days": [
           {
             "day_num": 29,
@@ -577,11 +639,1658 @@
         ]
       },
         {
-          "week_num": 16,
+          "week_num": 15,
           "days": [
+            {
+              "day_num": 5,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Domingo de ramos",
+                  "colaborators": ["consistorio"],
+                  "start_at": "12:00"
+                }
+              ]
+            },
+            {
+              "day_num": 6,
+              "is_other_month": false
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false
+            },
             {
               "day_num": 8,
               "is_other_month": false
+            },
+            {
+              "day_num": 9,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Santa cena",
+                  "colaborators": ["cena"],
+                  "start_at": "12:00"
+                }
+              ]
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 16,
+          "days": [
+            {
+              "day_num": 12,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Domingo de resurrección",
+                  "colaborators": ["femenil"],
+                  "start_at": "07:00"
+                },{
+                  "title": "Domingo familiar",
+                  "colaborators": [""],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            },
+            {
+              "day_num": 15,
+              "is_other_month": false
+            },
+            {
+              "day_num": 16,
+              "is_other_month": false
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Capacitación",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "9:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 17,
+          "days": [
+            {
+              "day_num": 19,
+              "is_other_month": false
+            },
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            },
+            {
+              "day_num": 22,
+              "is_other_month": false
+            },
+            {
+              "day_num": 23,
+              "is_other_month": false
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Vigilia de oración",
+                  "colaborators": ["educacion"],
+                  "start_at": "19:00"
+                }
+              ]
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Visita a orfanato",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "09:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 18,
+          "days": [
+            {
+              "day_num": 26,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Día del niño",
+                  "colaborators": ["consistorio", "jovenes"],
+                  "start_at": "12:00"
+                }
+              ]
+            },
+            {
+              "day_num": 27,
+              "is_other_month": false
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false
+            },
+            {
+              "day_num": 29,
+              "is_other_month": false
+            },
+            {
+              "day_num": 30,
+              "is_other_month": false
+            },
+            {
+              "day_num": 1,
+              "is_other_month": true
+            },
+            {
+              "day_num": 2,
+              "is_other_month": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mayo",
+      "background_color": "#03a9f4",
+      "weeks": [
+        {
+          "week_num": 18,
+          "days": [
+            {
+              "day_num": 26,
+              "is_other_month": true
+            },
+            {
+              "day_num": 27,
+              "is_other_month": true
+            },
+            {
+              "day_num": 28,
+              "is_other_month": true
+            },
+            {
+              "day_num": 29,
+              "is_other_month": true
+            },
+            {
+              "day_num": 30,
+              "is_other_month": true
+            },
+            {
+              "day_num": 1,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Salida de varones",
+                  "colaborators": ["varones"],
+                  "start_at": "06:00"
+                }
+              ]
+            },
+            {
+              "day_num": 2,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Salida de varones",
+                  "colaborators": ["varones"],
+                  "start_at": "06:00"
+                }
+              ]
+            }
+          ]
+
+        },
+        {
+          "week_num": 19,
+          "days": [
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            },
+            {
+              "day_num": 5,
+              "is_other_month": false
+            },
+            {
+              "day_num": 6,
+              "is_other_month": false
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false
+            },
+            {
+              "day_num": 8,
+              "is_other_month": false
+            },
+            {
+              "day_num": 9,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Capacitación",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "09:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 20,
+          "days": [
+            {
+              "day_num": 10,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Desayuno",
+                  "colaborators": ["varones", "jovenes"],
+                  "start_at": "09:00"
+                }
+              ]
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false
+            },
+            {
+              "day_num": 12,
+              "is_other_month": false
+            },
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            },
+            {
+              "day_num": 15,
+              "is_other_month": false
+            },
+            {
+              "day_num": 16,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 21,
+          "days": [
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false
+            },
+            {
+              "day_num": 19,
+              "is_other_month": false
+            },
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            },
+            {
+              "day_num": 22,
+              "is_other_month": false
+            },
+            {
+              "day_num": 23,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Act. presbiterial",
+                  "colaborators": ["consistorio"],
+                  "start_at": "09:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 22,
+          "days": [
+            {
+              "day_num": 24,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Culto unido",
+                  "colaborators": ["femenil"],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false
+            },
+            {
+              "day_num": 26,
+              "is_other_month": false
+            },
+            {
+              "day_num": 27,
+              "is_other_month": false
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false
+            },
+            {
+              "day_num": 29,
+              "is_other_month": false
+            },
+            {
+              "day_num": 30,
+              "is_other_month": true
+            }
+          ]
+        },
+        {
+          "week_num": 23,
+          "days": [
+            {
+              "day_num": 31,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Día del pentecostés",
+                  "colaborators": ["consistorio"],
+                  "start_at": "12:00"
+                },
+                {
+                  "title": "Aniv. Emanuel",
+                  "colaborators": ["consitorio"],
+                  "start_at": "09:00"
+                }
+              ]
+            },
+            {
+              "day_num": 1,
+              "is_other_month": true
+            },
+            {
+              "day_num": 2,
+              "is_other_month": true
+            },
+            {
+              "day_num": 3,
+              "is_other_month": true
+            },
+            {
+              "day_num": 4,
+              "is_other_month": true
+            },
+            {
+              "day_num": 5,
+              "is_other_month": true
+            },
+            {
+              "day_num": 6,
+              "is_other_month": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Junio",
+      "background_color": "#009688",
+      "weeks": [
+        {
+          "week_num": 23,
+          "days": [
+            {
+              "day_num": 31,
+              "is_other_month": true
+            },
+            {
+              "day_num": 1,
+              "is_other_month": false
+            },
+            {
+              "day_num": 2,
+              "is_other_month": false
+            },
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            },
+            {
+              "day_num": 5,
+              "is_other_month": false
+            },
+            {
+              "day_num": 6,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Congreso de aniversario",
+                  "colaborators": ["femenil"],
+                  "start_at": "09:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 24,
+          "days": [
+            {
+              "day_num": 7,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Santa cena",
+                  "colaborators": ["cena"],
+                  "start_at": "12:00"
+                },
+                {
+                  "title": "Aniversario femenil",
+                  "colaborators": ["consistorio"],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 8,
+              "is_other_month": false
+            },
+            {
+              "day_num": 9,
+              "is_other_month": false
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false
+            },
+            {
+              "day_num": 12,
+              "is_other_month": false
+            },
+            {
+              "day_num": 13,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Capacitación",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "09:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 25,
+          "days": [
+            {
+              "day_num": 14,
+              "is_other_month": false
+            },
+            {
+              "day_num": 15,
+              "is_other_month": false
+            },
+            {
+              "day_num": 16,
+              "is_other_month": false
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false
+            },
+            {
+              "day_num": 19,
+              "is_other_month": false
+            },
+            {
+              "day_num": 20,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Café concierto",
+                  "colaborators": ["alabanza", "jovenes"],
+                  "start_at": "17:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 26,
+          "days": [
+            {
+              "day_num": 21,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Día del padre",
+                  "colaborators": ["femenil", "relaciones"],
+                  "start_at": "09:00"
+                }
+              ]
+            },
+            {
+              "day_num": 22,
+              "is_other_month": false
+            },
+            {
+              "day_num": 23,
+              "is_other_month": false
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false
+            },
+            {
+              "day_num": 26,
+              "is_other_month": false
+            },
+            {
+              "day_num": 27,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Cena matrimonios de EBV",
+                  "colaborators": ["relaciones", "evangelismo"],
+                  "start_at": "19:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 27,
+          "days": [
+            {
+              "day_num": 28,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Culto unido",
+                  "colaborators": ["varones"],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 29,
+              "is_other_month": false
+            },
+            {
+              "day_num": 30,
+              "is_other_month": false
+            },
+            {
+              "day_num": 1,
+              "is_other_month": true
+            },
+            {
+              "day_num": 2,
+              "is_other_month": true
+            },
+            {
+              "day_num": 3,
+              "is_other_month": true
+            },
+            {
+              "day_num": 4,
+              "is_other_month": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Julio",
+      "background_color": "#8bc34a",
+      "weeks": [
+        {
+          "week_num": 27,
+          "days": [
+            {
+              "day_num": 28,
+              "is_other_month": true
+            },
+            {
+              "day_num": 29,
+              "is_other_month": true
+            },
+            {
+              "day_num": 30,
+              "is_other_month": true
+            },
+            {
+              "day_num": 1,
+              "is_other_month": false
+            },
+            {
+              "day_num": 2,
+              "is_other_month": false
+            },
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 28,
+          "days": [
+            {
+              "day_num": 5,
+              "is_other_month": false
+            },
+            {
+              "day_num": 6,
+              "is_other_month": false
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false
+            },
+            {
+              "day_num": 8,
+              "is_other_month": false
+            },
+            {
+              "day_num": 9,
+              "is_other_month": false
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Capacitación",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "10:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 29,
+          "days": [
+            {
+              "day_num": 12,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Nombramiento de comisión navideña",
+                  "colaborators": ["iglesia"],
+                  "start_at": "12:00"
+                }
+              ]
+            },
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            },
+            {
+              "day_num": 15,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Visita a hospital",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "10:00"
+                }
+              ]
+            },
+            {
+              "day_num": 16,
+              "is_other_month": false
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 30,
+          "days": [
+            {
+              "day_num": 19,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Apertura EBV",
+                  "colaborators": ["educacion"],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            },
+            {
+              "day_num": 22,
+              "is_other_month": false
+            },
+            {
+              "day_num": 23,
+              "is_other_month": false
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Clausura EBV",
+                  "colaborators": ["educacion"],
+                  "start_at": "17:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 31,
+          "days": [
+            {
+              "day_num": 26,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Domingo familiar",
+                  "colaborators": ["iglesia"],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 27,
+              "is_other_month": false
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false
+            },
+            {
+              "day_num": 29,
+              "is_other_month": false
+            },
+            {
+              "day_num": 30,
+              "is_other_month": false
+            },
+            {
+              "day_num": 31,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Fin de la juventud",
+                  "colaborators": ["jovenes"],
+                  "start_at": ""
+                }
+              ]
+            },
+            {
+              "day_num": 1,
+              "is_other_month": true,
+              "activities": [
+                {
+                  "title": "Fin de la juventud",
+                  "colaborators": ["jovenes"],
+                  "start_at": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agosto",
+      "background_color": "#e91e63",
+      "weeks": [
+        {
+          "week_num": 31,
+          "days": [
+            {
+              "day_num": 26,
+              "is_other_month": true
+            },
+            {
+              "day_num": 27,
+              "is_other_month": true
+            },
+            {
+              "day_num": 28,
+              "is_other_month": true
+            },
+            {
+              "day_num": 29,
+              "is_other_month": true
+            },
+            {
+              "day_num": 30,
+              "is_other_month": true
+            },
+            {
+              "day_num": 31,
+              "is_other_month": true
+            },
+            {
+              "day_num": 1,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 32,
+          "days": [
+            {
+              "day_num": 2,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Fin de la juventud",
+                  "colaborators": ["jovenes"],
+                  "start_at": ""
+                },
+                {
+                  "title": "Santa cena",
+                  "colaborators": ["cena"],
+                  "start_at": "12:00"
+                }
+              ]
+            },
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            },
+            {
+              "day_num": 5,
+              "is_other_month": false
+            },
+            {
+              "day_num": 6,
+              "is_other_month": false
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Vigilia de oración",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "19:00"
+                }
+              ]
+            },
+            {
+              "day_num": 8,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Capacitación",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "10:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 33,
+          "days": [
+            {
+              "day_num": 9,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Semana de la Biblia",
+                  "colaborators": [""],
+                  "start_at": ""
+                }
+              ]
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false
+            },
+            {
+              "day_num": 12,
+              "is_other_month": false
+            },
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            },
+            {
+              "day_num": 15,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Semana de la Biblia",
+                  "colaborators": [""],
+                  "start_at": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 34,
+          "days": [
+            {
+              "day_num": 16,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Semana de la Biblia",
+                  "colaborators": [""],
+                  "start_at": ""
+                }
+              ]
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false
+            },
+            {
+              "day_num": 19,
+              "is_other_month": false
+            },
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            },
+            {
+              "day_num": 22,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 35,
+          "days": [
+            {
+              "day_num": 23,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Culto unido",
+                  "colaborators": ["femenil"],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false
+            },
+            {
+              "day_num": 26,
+              "is_other_month": false
+            },
+            {
+              "day_num": 27,
+              "is_other_month": false
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false
+            },
+            {
+              "day_num": 29,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 36,
+          "days": [
+            {
+              "day_num": 30,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Día del pastor",
+                  "colaborators": ["iglesia"],
+                  "start_at": "12:00"
+                },
+                {
+                  "title": "Domingo familiar",
+                  "colaborators": ["iglesia"],
+                  "start_at": "17:00"
+                }
+              ]
+
+            },
+            {
+              "day_num": 31,
+              "is_other_month": false
+            },
+            {
+              "day_num": 1,
+              "is_other_month": true
+            },
+            {
+              "day_num": 2,
+              "is_other_month": true
+            },
+            {
+              "day_num": 3,
+              "is_other_month": true
+            },
+            {
+              "day_num": 4,
+              "is_other_month": true
+            },
+            {
+              "day_num": 5,
+              "is_other_month": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Septiembre",
+      "background_color": "#ff9800",
+      "weeks": [
+        {
+          "week_num": 36,
+          "days": [
+            {
+              "day_num": 30,
+              "is_other_month": true
+            },
+            {
+              "day_num": 31,
+              "is_other_month": true
+            },
+            {
+              "day_num": 1,
+              "is_other_month": false
+            },
+            {
+              "day_num": 2,
+              "is_other_month": false
+            },
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            },
+            {
+              "day_num": 5,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Desayuno evangelístico",
+                  "colaborators": ["evangelismo"],
+                  "start_at": "09:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 37,
+          "days": [
+            {
+              "day_num": 6,
+              "is_other_month": false
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false
+            },
+            {
+              "day_num": 8,
+              "is_other_month": false
+            },
+            {
+              "day_num": 9,
+              "is_other_month": false
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Independencial",
+                  "colaborators": ["relaciones"],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 12,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 38,
+          "days": [
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            },
+            {
+              "day_num": 15,
+              "is_other_month": false
+            },
+            {
+              "day_num": 16,
+              "is_other_month": false
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false
+            },
+            {
+              "day_num": 19,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 39,
+          "days": [
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            },
+            {
+              "day_num": 22,
+              "is_other_month": false
+            },
+            {
+              "day_num": 23,
+              "is_other_month": false
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false
+            },
+            {
+              "day_num": 26,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Aniversario de la Unión femenil",
+                  "colaborators": ["femenil"],
+                  "start_at": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 40,
+          "days": [
+            {
+              "day_num": 27,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Culto unido",
+                  "colaborators": ["varones"],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false
+            },
+            {
+              "day_num": 29,
+              "is_other_month": false
+            },
+            {
+              "day_num": 30,
+              "is_other_month": false
+            },
+            {
+              "day_num": 31,
+              "is_other_month": false
+            },
+            {
+              "day_num": 1,
+              "is_other_month": true
+            },
+            {
+              "day_num": 2,
+              "is_other_month": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Octubre",
+      "background_color": "#9e9e9e",
+      "weeks": [
+        {
+          "week_num": 40,
+          "days": [
+            {
+              "day_num": 27,
+              "is_other_month": true
+            },
+            {
+              "day_num": 28,
+              "is_other_month": true
+            },
+            {
+              "day_num": 29,
+              "is_other_month": true
+            },
+            {
+              "day_num": 30,
+              "is_other_month": true
+            },
+            {
+              "day_num": 31,
+              "is_other_month": true
+            },
+            {
+              "day_num": 1,
+              "is_other_month": false
+            },
+            {
+              "day_num": 2,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 41,
+          "days": [
+            {
+              "day_num": 4,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Santa cena",
+                  "colaborators": ["cena"],
+                  "start_at": "12:00"
+                },
+                {
+                  "title": "Reestructuración de ministerios",
+                  "colaborators": ["consistorio"],
+                  "start_at": "12:00"
+                }
+              ]
+            },
+            {
+              "day_num": 5,
+              "is_other_month": false
+            },
+            {
+              "day_num": 6,
+              "is_other_month": false
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false
+            },
+            {
+              "day_num": 8,
+              "is_other_month": false
+            },
+            {
+              "day_num": 9,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Vigilia de oración",
+                  "colaborators": ["relaciones"],
+                  "start_at": "19:00"
+                }
+              ]
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 42,
+          "days": [
+            {
+              "day_num": 11,
+              "is_other_month": false
+            },
+            {
+              "day_num": 12,
+              "is_other_month": false
+            },
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            },
+            {
+              "day_num": 15,
+              "is_other_month": false
+            },
+            {
+              "day_num": 16,
+              "is_other_month": false
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Reunión de evaluación",
+                  "colaborators": [""],
+                  "start_at": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 43,
+          "days": [
+            {
+              "day_num": 18,
+              "is_other_month": false
+            },
+            {
+              "day_num": 19,
+              "is_other_month": false
+            },
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            },
+            {
+              "day_num": 22,
+              "is_other_month": false
+            },
+            {
+              "day_num": 23,
+              "is_other_month": false
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 44,
+          "days": [
+            {
+              "day_num": 25,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Culto unido",
+                  "colaborators": ["jovenes"],
+                  "start_at": "17:00"
+                },
+                {
+                  "title": "Aniversario Elohim",
+                  "colaborators": ["jovenes"],
+                  "start_at": "17:00"
+                }
+              ]
+            },
+            {
+              "day_num": 26,
+              "is_other_month": false
+            },
+            {
+              "day_num": 27,
+              "is_other_month": false
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false
+            },
+            {
+              "day_num": 29,
+              "is_other_month": false
+            },
+            {
+              "day_num": 30,
+              "is_other_month": false
+            },
+            {
+              "day_num": 31,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Culto de Reforma",
+                  "colaborators": ["consistorio"],
+                  "start_at": "16:00"
+                },
+                {
+                  "title": "Aniversario Presbiterio",
+                  "colaborators": ["consistorio"],
+                  "start_at": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Noviembre",
+      "background_color": "#795548",
+      "weeks": [
+        {
+          "week_num": 45,
+          "days": [
+            {
+              "day_num": 1,
+              "is_other_month": false
+            },
+            {
+              "day_num": 2,
+              "is_other_month": false
+            },
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            },
+            {
+              "day_num": 5,
+              "is_other_month": false
+            },
+            {
+              "day_num": 6,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Campamento femenil",
+                  "colaborators": ["femenil"],
+                  "start_at": ""
+                }
+              ]
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Campamento femenil",
+                  "colaborators": ["femenil"],
+                  "start_at": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week_num": 46,
+          "days": [
+            {
+              "day_num": 8,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Campamento femenil",
+                  "colaborators": ["femenil"],
+                  "start_at": ""
+                }
+              ]
             },
             {
               "day_num": 9,
@@ -610,11 +2319,18 @@
           ]
         },
         {
-          "week_num": 13,
+          "week_num": 47,
           "days": [
             {
               "day_num": 15,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Calendarización",
+                  "colaborators": ["iglesia"],
+                  "start_at": "17:00"
+                }
+              ]
             },
             {
               "day_num": 16,
@@ -643,11 +2359,18 @@
           ]
         },
         {
-          "week_num": 13,
+          "week_num": 48,
           "days": [
             {
               "day_num": 22,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Culto unido",
+                  "colaborators": ["femenil"],
+                  "start_at": "17:00"
+                }
+              ]
             },
             {
               "day_num": 23,
@@ -667,7 +2390,8 @@
             },
             {
               "day_num": 27,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": []
             },
             {
               "day_num": 28,
@@ -676,18 +2400,21 @@
           ]
         },
         {
-          "week_num": 14,
+          "week_num": 49,
           "days": [
             {
               "day_num": 29,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Domingo familiar",
+                  "colaborators": ["iglesia"],
+                  "start_at": ""
+                }
+              ]
             },
             {
               "day_num": 30,
-              "is_other_month": false
-            },
-            {
-              "day_num": 31,
               "is_other_month": false
             },
             {
@@ -704,6 +2431,195 @@
             },
             {
               "day_num": 4,
+              "is_other_month": true
+            },
+            {
+              "day_num": 5,
+              "is_other_month": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diciembre",
+      "background_color": "#f44336",
+      "weeks": [
+        {
+          "week_num": 49,
+          "days": [
+            {
+              "day_num": 29,
+              "is_other_month": true
+            },
+            {
+              "day_num": 30,
+              "is_other_month": true
+            },
+            {
+              "day_num": 1,
+              "is_other_month": false
+            },
+            {
+              "day_num": 2,
+              "is_other_month": false
+            },
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            },
+            {
+              "day_num": 5,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 50,
+          "days": [
+            {
+              "day_num": 6,
+              "is_other_month": false
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false
+            },
+            {
+              "day_num": 8,
+              "is_other_month": false
+            },
+            {
+              "day_num": 9,
+              "is_other_month": false
+            },
+            {
+              "day_num": 10,
+              "is_other_month": false
+            },
+            {
+              "day_num": 11,
+              "is_other_month": false
+            },
+            {
+              "day_num": 12,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 51,
+          "days": [
+            {
+              "day_num": 13,
+              "is_other_month": false
+            },
+            {
+              "day_num": 14,
+              "is_other_month": false
+            },
+            {
+              "day_num": 15,
+              "is_other_month": false
+            },
+            {
+              "day_num": 16,
+              "is_other_month": false
+            },
+            {
+              "day_num": 17,
+              "is_other_month": false
+            },
+            {
+              "day_num": 18,
+              "is_other_month": false
+            },
+            {
+              "day_num": 19,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 52,
+          "days": [
+            {
+              "day_num": 20,
+              "is_other_month": false
+            },
+            {
+              "day_num": 21,
+              "is_other_month": false
+            },
+            {
+              "day_num": 22,
+              "is_other_month": false
+            },
+            {
+              "day_num": 23,
+              "is_other_month": false
+            },
+            {
+              "day_num": 24,
+              "is_other_month": false
+            },
+            {
+              "day_num": 25,
+              "is_other_month": false
+            },
+            {
+              "day_num": 26,
+              "is_other_month": false
+            }
+          ]
+        },
+        {
+          "week_num": 53,
+          "days": [
+            {
+              "day_num": 27,
+              "is_other_month": false
+            },
+            {
+              "day_num": 28,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Campamento de la unión de jóvenes",
+                  "colaborators": ["jovenes"],
+                  "start_at": ""
+                }
+              ]
+            },
+            {
+              "day_num": 29,
+              "is_other_month": false
+            },
+            {
+              "day_num": 30,
+              "is_other_month": false
+            },
+            {
+              "day_num": 31,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Culto de fin de año",
+                  "colaborators": ["comision"],
+                  "start_at": ""
+                }
+              ]
+            },
+            {
+              "day_num": 1,
+              "is_other_month": true
+            },
+            {
+              "day_num": 2,
               "is_other_month": true
             }
           ]

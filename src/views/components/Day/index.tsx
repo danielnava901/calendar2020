@@ -12,15 +12,20 @@ interface DayPropsInterface {
 const Day: React.FC<DayPropsInterface> = (props) => {
     console.log("isother ",props.is_other_month);
     const styles = {
-        backgroundColor: props.background_color ? props.background_color : 'white',
-        color: props.is_other_month ? 'gray' : ''
+        backgroundColor: props.background_color ? props.background_color : 'transparent'
     };
+
 
     const returnEmoji = (type: string) => {
         let emoji: any = null;
+
+
         switch (type) {
+            case "cena":
+                emoji = <i className="em em-bread" title="Santa cena"/>;
+                break;
             case "consistorio":
-                emoji = <i className="em em-toolbox" title="Diáconos"/>;
+                emoji = <i className="em em-briefcase" title="Consistorio"/>;
                 break;
             case "diaconos":
                 emoji = <i className="em em-toolbox" title="Diáconos"/>;
@@ -32,34 +37,37 @@ const Day: React.FC<DayPropsInterface> = (props) => {
                 emoji = <i className="em em-female_curly_haired" title="Femenil"/>;
                 break;
             case "varones":
-                emoji = <i className="em em-female_curly_haired" title="Varones"/>;
+                emoji = <i className="em em-man_in_tuxedo" title="Varones"/>;
                 break;
             case "jovenes":
-                emoji = <i className="em em-female_curly_haired" title="Jóvenes"/>;
+                emoji = <i className="em em-man-biking" title="Jóvenes"/>;
                 break;
             case "ninos":
-                emoji = <i className="em em-female_curly_haired" title="Niños"/>;
+                emoji = <i className="em em-balloon" title="Niños"/>;
                 break;
             case "evangelismo":
-                emoji = <i className="em em-book" title="Evangelismo"/>;
+                emoji = <i className="em em-bookmark" title="Evangelismo"/>;
                 break;
             case "recursos":
-                emoji = <i className="em em-book" title="Recursos"/>;
+                emoji = <i className="em em-moneybag" title="Recursos"/>;
                 break;
             case "relaciones":
-                emoji = <i className="em em-book" title="Relaciones"/>;
+                emoji = <i className="em em-handshake" title="Relaciones"/>;
                 break;
             case "comunicaciones":
-                emoji = <i className="em em-book" title="Comunicaciones"/>;
+                emoji = <i className="em em-incoming_envelope" title="Comunicaciones"/>;
                 break;
             case "educacion":
-                emoji = <i className="em em-book" title="Educación"/>;
+                emoji = <i className="em em-female_teacher" title="Educación"/>;
                 break;
             case "alabanza":
-                emoji = <i className="em em-book" title="Alabanza"/>;
+                emoji = <i className="em em-musical_keyboard" title="Alabanza"/>;
                 break;
             case "comision":
-                emoji = <i className="em em-book" title="Comisión navideña"/>;
+                emoji = <i className="em em-christmas_tree" title="Comisión navideña"/>;
+                break;
+            case "iglesia":
+                emoji = <i className="em em-church" title="Comisión navideña"/>;
                 break;
             default:
                 emoji = null
@@ -69,20 +77,28 @@ const Day: React.FC<DayPropsInterface> = (props) => {
     };
 
 
-    return <div className="Day" style={styles} key={props.num}>
+    return <div className={`Day ${props.is_other_month ? 'other-day': ''}`} style={styles} key={props.num}>
             <div className="Day_number">
-                <span className="Day_number_n">{props.num}</span><span className="Day_number_name">{props.day_name}</span>
+                <span className={`Day_number_n`}>{props.num}</span>
+                <span className="Day_number_name">{props.day_name}</span>
             </div>
             <div className="Day_activities">
                 {
-                    props.activities ? props.activities.map((activitie: any, index: number) => {
+                    props.activities ? props.activities.map((activity: any, index: number) => {
+
                         return <div className="Day_activity" key={index}>
-                            <span className="Day_activity--title">{activitie.title}</span>
-                            <span className={`Day_activity--emoji ${activitie.colaborator}`}>
+                            <span className="Day_activity--title">{activity.title}</span>
                                 {
-                                    returnEmoji(activitie.colaborator)
+                                    activity.colaborators?.map((col: string) => {
+
+                                        return <span className={`Day_activity--emoji ${col}`}>
+                                            {
+                                                returnEmoji(col)
+                                            }
+                                        </span>
+                                    })
                                 }
-                            </span>
+
                         </div>
                     }): null
                 }
