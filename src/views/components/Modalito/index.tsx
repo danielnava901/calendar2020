@@ -9,7 +9,7 @@ interface ModalitoPropsInterface {
 
 const Modalito: React.FC<ModalitoPropsInterface> = (props: ModalitoPropsInterface) => {
 
-
+    console.log(props.currentDay);
 
     return <div className="Modalito">
     <div className="Modalito_container">
@@ -17,7 +17,7 @@ const Modalito: React.FC<ModalitoPropsInterface> = (props: ModalitoPropsInterfac
         <div className="Modalito_body">
             <div className="Modalito_body--header">
                 <div className="Modalito_body--day">
-                    <span className="Modalito_body--day-name">{props.currentDay.day?.day_name}</span>
+                    <span className="Modalito_body--day-name">{props.currentDay.day_name}</span>
                     <strong className="Modalito_body--day-num">{props.currentDay.day?.day_num}</strong>
                 </div>
             </div>
