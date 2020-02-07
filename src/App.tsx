@@ -6,6 +6,7 @@ import calendar from './constants/calendar.json';
 
 class App extends Component<any, any> {
 
+  weekDays = ["Dom", "Lun", "Mar", "Mie", "Jue", "Vie", "Sab"];
   constructor(props: any) {
     super(props);
     this.state = {
@@ -13,6 +14,7 @@ class App extends Component<any, any> {
     }
 
     this.clickArrow = this.clickArrow.bind(this);
+    this.onClickDay = this.onClickDay.bind(this);
   }
 
   clickArrow(step: number) {
@@ -22,6 +24,10 @@ class App extends Component<any, any> {
     this.setState({
       counter: this.state.counter + step
     })
+  }
+
+  onClickDay (day: any, week: any, month: any) {
+    console.log("DATA", day, "WEEK", week, month);
   }
 
   render(): any {
@@ -50,11 +56,17 @@ class App extends Component<any, any> {
                   return <Week num={week.week_num} key={indexWeek}>
                     {
                       week.days.map((day: any, indexDay: number) => {
-                        return <Day num={day.day_num}
+                        return <Day data={day}
+                                    num={day.day_num}
                                     activities={day.activities}
                                     background_color={day.background_color}
                                     is_other_month={day.is_other_month}
                                     key={indexDay}
+                                    day_name={this.weekDays[indexDay]}
+                                    onClick={() => {
+                                      this.onClickDay(day, week, currentMonth);
+                                      }
+                                    }
                         />
                       })
                     }
