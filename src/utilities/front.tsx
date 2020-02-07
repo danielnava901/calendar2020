@@ -5,7 +5,7 @@ export const returnEmoji = (type: string, index = 1) => {
 
 
     switch (type) {
-        case "cena":
+        case "santa cena":
             emoji = <i className="em em-bread" title="Santa cena" key={index}/>;
             break;
         case "consistorio":

@@ -216,19 +216,14 @@
               "activities": [
                 {
                   "title": "Santa cena",
-                  "colaborators": ["cena"]
+                  "colaborators": ["santa cena"]
                 }
               ]
             },
             {
               "day_num": 3,
               "is_other_month": false,
-              "activities": [
-                {
-                  "title": "Santa cena",
-                  "colaborators": ["cena"]
-                }
-              ]
+              "activities": []
             },
             {
               "day_num": 4,
@@ -670,7 +665,7 @@
               "activities": [
                 {
                   "title": "Santa cena",
-                  "colaborators": ["cena"],
+                  "colaborators": ["santa cena"],
                   "start_at": "12:00"
                 }
               ]
@@ -1137,7 +1132,7 @@
               "activities": [
                 {
                   "title": "Santa cena",
-                  "colaborators": ["cena"],
+                  "colaborators": ["santa cena"],
                   "start_at": "12:00"
                 },
                 {
@@ -1587,7 +1582,7 @@
                 },
                 {
                   "title": "Santa cena",
-                  "colaborators": ["cena"],
+                  "colaborators": ["santa cena"],
                   "start_at": "12:00"
                 }
               ]
@@ -2052,7 +2047,7 @@
               "activities": [
                 {
                   "title": "Santa cena",
-                  "colaborators": ["cena"],
+                  "colaborators": ["santa cena"],
                   "start_at": "12:00"
                 },
                 {
