@@ -274,11 +274,23 @@
             },
             {
               "day_num": 13,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Raquel Romero",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 14,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Alicia Segundo",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 15,
@@ -301,7 +313,13 @@
             },
             {
               "day_num": 17,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Adrián Lechuga",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 18,
@@ -356,7 +374,13 @@
             },
             {
               "day_num": 25,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Karen Tejeda",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 26,
@@ -364,7 +388,13 @@
             },
             {
               "day_num": 27,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Susana Sanchez",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 28,
@@ -427,7 +457,13 @@
           "days": [
             {
               "day_num": 8,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Arely Contreras",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 9,
@@ -435,11 +471,23 @@
             },
             {
               "day_num": 10,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Cyntia Ramirez",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 11,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Ezequiel Vega",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 12,
@@ -467,7 +515,13 @@
           "days": [
             {
               "day_num": 15,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Alberto Rodríguez",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 16,
@@ -526,11 +580,23 @@
             },
             {
               "day_num": 25,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Norma Ruvalcaba",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 26,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Keren Miranda",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 27,
@@ -544,6 +610,14 @@
                   "title": "Pintar la iglesia",
                   "colaborators": ["diaconos"],
                   "start_at": "09:00"
+                },
+                {
+                  "title": "Ingrid Guerrero",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Diana Sanae",
+                  "colaborators": ["cumple"]
                 }
               ]
             }
@@ -564,6 +638,11 @@
                 {
                   "title": "Domingo familiar",
                   "colaborators": ["iglesia"],
+                  "start_at": "15:00"
+                },
+                {
+                  "title": "Rubén Contreras",
+                  "colaborators": ["cumple"],
                   "start_at": "15:00"
                 }
               ]
@@ -617,7 +696,13 @@
           },
           {
             "day_num": 1,
-            "is_other_month": false
+            "is_other_month": false,
+            "activities": [
+              {
+                "title": "Lidia Contreras",
+                "colaborators": ["cumple"]
+              }
+            ]
           },
           {
             "day_num": 2,
@@ -644,6 +729,14 @@
                   "title": "Domingo de ramos",
                   "colaborators": ["consistorio"],
                   "start_at": "12:00"
+                },
+                {
+                  "title": "Lupita Mtz",
+                  "colaborators": ["consistorio"]
+                },
+                {
+                  "title": "Gina Rodríguez",
+                  "colaborators": ["consistorio"]
                 }
               ]
             },
@@ -653,11 +746,23 @@
             },
             {
               "day_num": 7,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Daniel Nava",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 8,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Perla Campos",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 9,
@@ -676,7 +781,13 @@
             },
             {
               "day_num": 11,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Sebastián Rosario",
+                  "colaborators": ["cumple"]
+                }
+              ]
             }
           ]
         },
@@ -695,12 +806,21 @@
                   "title": "Domingo familiar",
                   "colaborators": ["iglesia"],
                   "start_at": "17:00"
+                },{
+                  "title": "Vero Mejía",
+                  "colaborators": ["iglesia"]
                 }
               ]
             },
             {
               "day_num": 13,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Alan Ramos",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 14,
@@ -740,7 +860,13 @@
             },
             {
               "day_num": 20,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Martín Resendiz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 21,
@@ -748,7 +874,13 @@
             },
             {
               "day_num": 22,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Gabriel Aarón",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 23,
@@ -802,7 +934,13 @@
             },
             {
               "day_num": 29,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Rubí Morales",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 30,
@@ -881,7 +1019,13 @@
             },
             {
               "day_num": 4,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Alberto Iniestro",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 5,
@@ -907,6 +1051,10 @@
                   "title": "Capacitación",
                   "colaborators": ["evangelismo"],
                   "start_at": "09:00"
+                },
+                {
+                  "title": "Carlos Comi",
+                  "colaborators": ["cumple"]
                 }
               ]
             }
@@ -923,12 +1071,30 @@
                   "title": "Desayuno",
                   "colaborators": ["varones", "jovenes"],
                   "start_at": "09:00"
+                },
+                {
+                  "title": "Ana Brena",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Amparo López",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
             {
               "day_num": 11,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Dante Santamaria",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Amira Barrera",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 12,
@@ -940,11 +1106,23 @@
             },
             {
               "day_num": 14,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Leo Aguilera",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 15,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Isidra García",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 16,
@@ -969,11 +1147,23 @@
             },
             {
               "day_num": 20,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Memo S. Resendiz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 21,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Isaac Resendiz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 22,
@@ -985,6 +1175,11 @@
               "activities": [
                 {
                   "title": "Act. presbiterial",
+                  "colaborators": ["consistorio"],
+                  "start_at": "09:00"
+                },
+                {
+                  "title": "Susana López",
                   "colaborators": ["consistorio"],
                   "start_at": "09:00"
                 }
@@ -1020,15 +1215,41 @@
             },
             {
               "day_num": 28,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Agustín Mejía",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 29,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Michel Arbesu",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Rubén Asael",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 30,
-              "is_other_month": true
+              "is_other_month": true,
+              "activities": [
+                {
+                  "title": "Luis Cortéz",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Izael Nava",
+                  "colaborators": ["cumple"]
+                }
+              ]
             }
           ]
         },
@@ -1104,11 +1325,27 @@
             },
             {
               "day_num": 4,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Tania Yolanda",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Emma Lemus",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 5,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Michel Delgado",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 6,
@@ -1160,7 +1397,17 @@
             },
             {
               "day_num": 12,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Antonia Segundo",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Xochitl Valentín",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 13,
@@ -1192,7 +1439,13 @@
             },
             {
               "day_num": 17,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Jemima Contreras",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 18,
@@ -1200,7 +1453,13 @@
             },
             {
               "day_num": 19,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Diego Hdz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 20,
@@ -1231,7 +1490,13 @@
             },
             {
               "day_num": 22,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Gerardo Daniel",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 23,
@@ -1247,7 +1512,17 @@
             },
             {
               "day_num": 26,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Samuel López",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Junior Alejandro",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 27,
@@ -1282,7 +1557,13 @@
             },
             {
               "day_num": 30,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Arleth R.",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 1,
@@ -1350,7 +1631,13 @@
             },
             {
               "day_num": 6,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Graciela Resendiz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 7,
@@ -1362,11 +1649,27 @@
             },
             {
               "day_num": 9,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Danya Gordiano",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Francisco Santamaria",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 10,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Josefina",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 11,
@@ -1376,6 +1679,10 @@
                   "title": "Capacitación",
                   "colaborators": ["evangelismo"],
                   "start_at": "10:00"
+                },
+                {
+                  "title": "Hector Jaimes",
+                  "colaborators": ["cumple"]
                 }
               ]
             }
@@ -1411,12 +1718,22 @@
                   "title": "Visita a hospital",
                   "colaborators": ["evangelismo"],
                   "start_at": "10:00"
+                },
+                {
+                  "title": "Nissi Cortés",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
             {
               "day_num": 16,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Gustavo Lechuga",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 17,
@@ -1439,12 +1756,22 @@
                   "title": "Apertura EBV",
                   "colaborators": ["educacion"],
                   "start_at": "17:00"
+                },
+                {
+                  "title": "Jose Luis Valenzuela",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
             {
               "day_num": 20,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "David Santamaria",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 21,
@@ -1456,7 +1783,13 @@
             },
             {
               "day_num": 23,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Diana Salazar",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 24,
@@ -1486,6 +1819,15 @@
                   "title": "Domingo familiar",
                   "colaborators": ["iglesia"],
                   "start_at": "17:00"
+                },
+                {
+                  "title": "Ana Jimenez",
+                  "colaborators": ["cumple"],
+                  "start_at": "17:00"
+                },
+                {
+                  "title": "Darvel Santamaria",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
@@ -1499,7 +1841,13 @@
             },
             {
               "day_num": 29,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Bernardino Rosario",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 30,
@@ -1584,12 +1932,22 @@
                   "title": "Santa cena",
                   "colaborators": ["santa cena"],
                   "start_at": "12:00"
+                },
+                {
+                  "title": "Nicole Solares",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
             {
               "day_num": 3,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Miriam Salazar",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 4,
@@ -1597,11 +1955,23 @@
             },
             {
               "day_num": 5,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Febe Brena",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 6,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Cuauhtemoc Salazar",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 7,
@@ -1611,6 +1981,10 @@
                   "title": "Vigilia de oración",
                   "colaborators": ["evangelismo"],
                   "start_at": "19:00"
+                },
+                {
+                  "title": "Nora Sanchez",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
@@ -1643,7 +2017,13 @@
             },
             {
               "day_num": 10,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Tania Cienfuegos",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 11,
@@ -1683,8 +2063,11 @@
               "activities": [
                 {
                   "title": "Semana de la Biblia",
-                  "colaborators": ["iglesia"],
-                  "start_at": ""
+                  "colaborators": ["iglesia"]
+                },
+                {
+                  "title": "Alexa Santamaria",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
@@ -1698,7 +2081,17 @@
             },
             {
               "day_num": 19,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Alejandra Pacheco",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Diego Camacho",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 20,
@@ -1706,7 +2099,13 @@
             },
             {
               "day_num": 21,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Yael Montserray",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 22,
@@ -1738,7 +2137,13 @@
             },
             {
               "day_num": 26,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Emilee Solares",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 27,
@@ -1750,7 +2155,13 @@
             },
             {
               "day_num": 29,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Marina Doncel",
+                  "colaborators": ["cumple"]
+                }
+              ]
             }
           ]
         },
@@ -1863,7 +2274,13 @@
             },
             {
               "day_num": 9,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Jessica Edith",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 10,
@@ -1899,7 +2316,13 @@
             },
             {
               "day_num": 15,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Laura Loredo",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 16,
@@ -1954,6 +2377,10 @@
                   "title": "Aniversario de la Unión femenil",
                   "colaborators": ["femenil"],
                   "start_at": ""
+                },
+                {
+                  "title": "César Pacheco",
+                  "colaborators": ["cumple"]
                 }
               ]
             }
@@ -1979,11 +2406,23 @@
             },
             {
               "day_num": 29,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Christopher García",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 30,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Rosalba Fuentes",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 31,
@@ -2054,6 +2493,10 @@
                   "title": "Reestructuración de ministerios",
                   "colaborators": ["consistorio"],
                   "start_at": "12:00"
+                },
+                {
+                  "title": "Israel Carmona",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
@@ -2081,12 +2524,26 @@
                   "title": "Vigilia de oración",
                   "colaborators": ["relaciones"],
                   "start_at": "19:00"
+                },
+                {
+                  "title": "Luz Alicia",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Beth-Sua Bautista",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
             {
               "day_num": 10,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Uziel Resendiz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             }
           ]
         },
@@ -2095,23 +2552,53 @@
           "days": [
             {
               "day_num": 11,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Maru Neyra",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 12,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Valeria Santamaria",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 13,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Lourdes Segundo",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 14,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Paola Merino",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 15,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Tere Mejia",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 16,
@@ -2159,7 +2646,13 @@
             },
             {
               "day_num": 24,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Dulce Brisa",
+                  "colaborators": ["cumple"]
+                }
+              ]
             }
           ]
         },
@@ -2184,11 +2677,23 @@
             },
             {
               "day_num": 26,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Rosa Navarro",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 27,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Leticia Resendiz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 28,
@@ -2235,11 +2740,23 @@
             },
             {
               "day_num": 2,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Erika Contreras",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 3,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Dru Carmona",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 4,
@@ -2247,7 +2764,13 @@
             },
             {
               "day_num": 5,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Male Contreras",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 6,
@@ -2284,6 +2807,10 @@
                   "title": "Campamento femenil",
                   "colaborators": ["femenil"],
                   "start_at": ""
+                },
+                {
+                  "title": "Bethsy Aguilera",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
@@ -2324,6 +2851,14 @@
                   "title": "Calendarización",
                   "colaborators": ["iglesia"],
                   "start_at": "17:00"
+                },
+                {
+                  "title": "Faustino Arbesu",
+                  "colaborators": ["cumple"]
+                },
+                {
+                  "title": "Humberto Guerrero",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
@@ -2345,7 +2880,13 @@
             },
             {
               "day_num": 20,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Matias Vega",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 21,
@@ -2364,6 +2905,10 @@
                   "title": "Culto unido",
                   "colaborators": ["femenil"],
                   "start_at": "17:00"
+                },
+                {
+                  "title": "Leopoldo Solares",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
@@ -2377,16 +2922,33 @@
             },
             {
               "day_num": 25,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Ricardo Duarte",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 26,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Jazlyn Melendez",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 27,
               "is_other_month": false,
-              "activities": []
+              "activities": [
+                {
+                  "title": "Antonia Ortega",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 28,
@@ -2453,7 +3015,13 @@
             },
             {
               "day_num": 1,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Jackeline Martinez",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 2,
@@ -2461,11 +3029,23 @@
             },
             {
               "day_num": 3,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Guillermo Sanabria",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 4,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Gabriela Díaz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 5,
@@ -2478,7 +3058,13 @@
           "days": [
             {
               "day_num": 6,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Marifer Reyna",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 7,
@@ -2486,11 +3072,23 @@
             },
             {
               "day_num": 8,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Fabian López",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 9,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Eli Giordiano",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 10,
@@ -2498,11 +3096,23 @@
             },
             {
               "day_num": 11,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Kenia Alba",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 12,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Guadalupe Cruz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             }
           ]
         },
@@ -2519,11 +3129,23 @@
             },
             {
               "day_num": 15,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Arturo Aguilera",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 16,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Lourdes Resendiz",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 17,
@@ -2544,7 +3166,13 @@
           "days": [
             {
               "day_num": 20,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Jesús Ayala",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 21,
@@ -2552,11 +3180,23 @@
             },
             {
               "day_num": 22,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Laura Betsabé",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 23,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Bell Giordiano",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 24,
@@ -2577,7 +3217,13 @@
           "days": [
             {
               "day_num": 27,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Arleth Aleman",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 28,
@@ -2587,6 +3233,10 @@
                   "title": "Campamento de la unión de jóvenes",
                   "colaborators": ["jovenes"],
                   "start_at": ""
+                },
+                {
+                  "title": "Benjamin Sanabria",
+                  "colaborators": ["cumple"]
                 }
               ]
             },
@@ -2596,7 +3246,13 @@
             },
             {
               "day_num": 30,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Berenice Carmona",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 31,
