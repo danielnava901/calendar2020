@@ -309,7 +309,13 @@
           "days": [
             {
               "day_num": 16,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Laura Robles",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 17,
