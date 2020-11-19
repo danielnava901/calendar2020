@@ -171,41 +171,41 @@
         {
           "week_num": 5,
           "days": [
-          {
-            "day_num": 26,
-            "is_other_month": true
-          },
-          {
-            "day_num": 27,
-            "is_other_month": true
-          },
-          {
-            "day_num": 28,
-            "is_other_month": true
-          },
-          {
-            "day_num": 29,
-            "is_other_month": true
-          },
-          {
-            "day_num": 20,
-            "is_other_month": true
-          },
-          {
-            "day_num": 21,
-            "is_other_month": true
-          },
-          {
-            "day_num": 1,
-            "is_other_month": false,
-            "activities": [
-              {
-                "title": "Capacitación",
-                "colaborators": ["evangelismo"]
-              }
-            ]
-          }
-        ]
+            {
+              "day_num": 26,
+              "is_other_month": true
+            },
+            {
+              "day_num": 27,
+              "is_other_month": true
+            },
+            {
+              "day_num": 28,
+              "is_other_month": true
+            },
+            {
+              "day_num": 29,
+              "is_other_month": true
+            },
+            {
+              "day_num": 20,
+              "is_other_month": true
+            },
+            {
+              "day_num": 21,
+              "is_other_month": true
+            },
+            {
+              "day_num": 1,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Capacitación",
+                  "colaborators": ["evangelismo"]
+                }
+              ]
+            }
+          ]
         },
         {
           "week_num": 6,
@@ -426,38 +426,38 @@
       "background_color": "#9c27b0",
       "weeks": [
         {
-        "week_num": 10,
-        "days": [
-          {
-            "day_num": 1,
-            "is_other_month": false
-          },
-          {
-            "day_num": 2,
-            "is_other_month": false
-          },
-          {
-            "day_num": 3,
-            "is_other_month": false
-          },
-          {
-            "day_num": 4,
-            "is_other_month": false
-          },
-          {
-            "day_num": 5,
-            "is_other_month": false
-          },
-          {
-            "day_num": 6,
-            "is_other_month": false
-          },
-          {
-            "day_num": 7,
-            "is_other_month": false
-          }
-        ]
-      },
+          "week_num": 10,
+          "days": [
+            {
+              "day_num": 1,
+              "is_other_month": false
+            },
+            {
+              "day_num": 2,
+              "is_other_month": false
+            },
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            },
+            {
+              "day_num": 5,
+              "is_other_month": false
+            },
+            {
+              "day_num": 6,
+              "is_other_month": false
+            },
+            {
+              "day_num": 7,
+              "is_other_month": false
+            }
+          ]
+        },
         {
           "week_num": 11,
           "days": [
@@ -686,44 +686,44 @@
       "background_color": "#3f51b5",
       "weeks": [
         {
-        "week_num": 14,
-        "days": [
-          {
-            "day_num": 29,
-            "is_other_month": true
-          },
-          {
-            "day_num": 30,
-            "is_other_month": true
-          },
-          {
-            "day_num": 31,
-            "is_other_month": true
-          },
-          {
-            "day_num": 1,
-            "is_other_month": false,
-            "activities": [
-              {
-                "title": "Lidia Contreras",
-                "colaborators": ["cumple"]
-              }
-            ]
-          },
-          {
-            "day_num": 2,
-            "is_other_month": false
-          },
-          {
-            "day_num": 3,
-            "is_other_month": false
-          },
-          {
-            "day_num": 4,
-            "is_other_month": false
-          }
-        ]
-      },
+          "week_num": 14,
+          "days": [
+            {
+              "day_num": 29,
+              "is_other_month": true
+            },
+            {
+              "day_num": 30,
+              "is_other_month": true
+            },
+            {
+              "day_num": 31,
+              "is_other_month": true
+            },
+            {
+              "day_num": 1,
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Lidia Contreras",
+                  "colaborators": ["cumple"]
+                }
+              ]
+            },
+            {
+              "day_num": 2,
+              "is_other_month": false
+            },
+            {
+              "day_num": 3,
+              "is_other_month": false
+            },
+            {
+              "day_num": 4,
+              "is_other_month": false
+            }
+          ]
+        },
         {
           "week_num": 15,
           "days": [
@@ -808,11 +808,13 @@
                   "title": "Domingo de resurrección",
                   "colaborators": ["femenil"],
                   "start_at": "07:00"
-                },{
+                },
+                {
                   "title": "Domingo familiar",
                   "colaborators": ["iglesia"],
                   "start_at": "17:00"
-                },{
+                },
+                {
                   "title": "Vero Mejía",
                   "colaborators": ["iglesia"]
                 }
@@ -1014,7 +1016,6 @@
               ]
             }
           ]
-
         },
         {
           "week_num": 19,
@@ -2189,7 +2190,6 @@
                   "start_at": "17:00"
                 }
               ]
-
             },
             {
               "day_num": 31,
@@ -2924,7 +2924,13 @@
             },
             {
               "day_num": 24,
-              "is_other_month": false
+              "is_other_month": false,
+              "activities": [
+                {
+                  "title": "Pbro. Filiberto Moctezuma",
+                  "colaborators": ["cumple"]
+                }
+              ]
             },
             {
               "day_num": 25,
@@ -3006,7 +3012,7 @@
     },
     {
       "name": "Diciembre",
-      "background_color": "#f44336",
+      "background_color": "rgba(200, 10,10,0.6)",
       "weeks": [
         {
           "week_num": 49,
